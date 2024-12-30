@@ -44,7 +44,7 @@
 - Удалить термин: `grpcurl -plaintext -d '{"name": "Updated Example"}' localhost:50051 glossary.GlossaryService.DeleteTerm`
 
 **DEMO**
-![DEMO](https://github.com/MypyMypy/itmo_grpc_edu/master/demo.png)
+![DEMO](https://github.com/MypyMypy/itmo_grpc_edu/blob/main/demo.png)
 
 ### Установка grpcurl на Linux
 
