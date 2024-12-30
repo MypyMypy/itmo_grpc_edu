@@ -1,0 +1,15 @@
+services:
+  grpc_server:
+    build:
+      context: .
+    container_name: grpc_server
+    ports:
+      - "50051:50051" # Порт для gRPC
+    volumes:
+      - ./app:/app # Монтирование локальной папки с исходниками
+    networks:
+      - grpc_network
+
+networks:
+  grpc_network:
+    driver: bridge
